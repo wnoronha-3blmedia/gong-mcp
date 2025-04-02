@@ -15,19 +15,6 @@ A Model Context Protocol (MCP) server that provides access to Gong's API for ret
 - Docker (optional, for containerized deployment)
 - Gong API credentials (Access Key and Secret)
 
-## Environment Variables
-
-1. Copy the example environment file:
-   ```bash
-   cp .env.example .env
-   ```
-
-2. Update the `.env` file with your Gong API credentials:
-   ```bash
-   GONG_ACCESS_KEY=your_access_key_here
-   GONG_ACCESS_SECRET=your_access_secret_here
-   ```
-
 ## Installation
 
 ### Local Development
